@@ -58,7 +58,7 @@ section.menu button.boton__header{
 /*banner*/
 
 section.banner{
-    background-image:url(/assets/banner2.png);
+    background-image: url(./assets/banner2.png);
     background-size:cover;
     background-repeat: no-repeat;
     width: 1270px;
@@ -69,6 +69,8 @@ section.banner{
     align-items: center;
     padding: 30px;
 }
+
+
 
 section.banner div.banner__about{
     display: flex;
