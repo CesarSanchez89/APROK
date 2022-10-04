@@ -227,6 +227,10 @@ footer.data__company div.foot div.foot__logo img{
     height: 100px;
 }
 
+footer.data__company div.foot ul.foot__box__list a{
+    text-decoration: none;
+}
+
 footer.data__company div.foot ul.foot__box__list{
     display: flex;
     flex-direction: column;
@@ -234,6 +238,8 @@ footer.data__company div.foot ul.foot__box__list{
     padding: 0px;
     gap: 24px;
     list-style: none;
+    text-decoration: none;
+
 }
 
 footer.data__company div.foot ul li.foot__box__item{
@@ -344,7 +350,7 @@ footer.data__company div.rodapie{
     padding-left: 0.1rem;
 }
 
-/*banner*/
+/*page quienessomos banner*/
 
 section.bannerquienessomos{
     background-image: url(./assets/banner2.png);
@@ -409,8 +415,6 @@ section.bannerquienessomos div.banner__about span.banner__span{
     color: #FFFFFF;
 }
 
-/*products*/
-
 section.company{
     display: flex;
     flex-direction:row;
@@ -444,6 +448,79 @@ section.company div.fotografia img{
     margin: 1rem 0 1rem 0;
 }
 
+/*page Mision y Vision*/
+
+section.mision__vision{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    background: #F5F5F5;
+    width: 1335px;
+    gap: 1rem;
+}
+
+section.mision__vision div.mision__description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+section.mision__vision div.mision__content h2.mision__descripcion__titulo{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+}
+
+section.mision__vision div.mision__description h4.mision__descripcion__resena{
+    font-size: 20px;
+    font-family:monospace;
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+section.mision__vision div.mision__fotografia img{
+    width: 500px;
+    height: 300px;
+    margin: 1rem;
+}
+
+section.mision__vision{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    background: #F5F5F5;
+    width: 1335px;
+    gap: 1rem;
+}
+
+section.mision__vision div.vision__description{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+section.mision__vision div.vision__content h2.vision__descripcion__titulo{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+}
+
+section.mision__vision div.vision__description h4.vision__descripcion__resena{
+    font-size: 20px;
+    font-family:monospace;
+    text-align: justify;
+    align-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+section.mision__vision div.vision__fotografia img{
+    width: 500px;
+    height: 300px;
+    margin: 1rem;
+}
 
 /*Modal*/
 
@@ -575,117 +652,6 @@ section.company div.fotografia img{
     footer.data__company div.rodapie{
         width: 700px;
     }
-
-    /*Page Home-login*/
-
-    section.login div.login__user p.login__user__title{
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-    }
-        
-    section.login div.login__user input.login__user__email{
-        width: 275px;
-        height: 41px;
-    }
-        
-    section.login div.login__user input.login__user__password{
-        width: 275px;
-        height: 41px;
-    }
-        
-    section.login div.login__user #btnEnter{
-        width: 109px;
-    }
-
-    /*Page agregar-producto*/
-
-    section.login__form{
-        width: 810px;
-    }
-
-    section.login__form form.login__user__form p.login__user__title{
-        font-size: 22px;
-        line-height: 26px;
-        width: 705px;
-    }
-    
-    section.login__form form.login__user__form div.login__user__url{
-        width: 704px;
-        height: 56px;
-    }
-    
-    section.login__form form.login__user__form div.login__user__categoria{
-        width: 704px;
-        height: 56px;
-    }
-    
-    section.login__form form.login__user__form div.login__user__name{
-        width: 704px;
-        height: 56px;
-    }
-    
-    section.login__form form.login__user__form div.login__user__price{
-        width: 704px;
-        height: 56px;
-    }
-    
-    section.login__form form.login__user__form div.login__user__description{
-        width: 704px;
-        height: 56px;
-    }
-    
-    section.login__form form.login__user__form button.login__user__boton{
-        font-size: 16px;
-        line-height: 19px;
-        width: 704px;
-        height: 51px;
-    }
-
-    footer.data__company div.foot{
-        width: 680px;
-    }
-
-    /*page one-product*/
-
-    section.product{
-        width: 800px;
-    }
-
-    section.product div div.product__store__img{
-        margin: 1rem 0.5rem 0 1rem;    
-    }
-    
-    section.product div div.product__store__img img{
-        width: 254px;
-        height: 200px;
-    }
-
-    section.product h2.products__head__title{
-        margin: 3rem 1rem 1rem 1rem;
-    }
-
-    section.product div.products__same{
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin: 0;
-        padding: 0;
-    }
-
-    section.product div.products__same div ul.products__store__list{
-        margin: 0;
-        padding: 1rem;
-    }
-
-    section.product div.products__same div:nth-child(n+5){
-        display: none;
-    }
-
-    section.product ul li.products__store__item__img img{
-        width: 162px;
-        height: 174px;
-    }
-
 
 }
 
@@ -823,153 +789,4 @@ section.company div.fotografia img{
         width: 300px;
     }
 
-    /*Page Home-login*/
-    section.login {
-        width: 390px;
-    }
-
-    section.login div.login__user p.login__user__title{
-        font-size: 16px;
-        line-height: 19px;
-        text-align: center;
-    }
-
-    section.login div.login__user input.login__user__email{
-        width: 275px;
-        height: 41px;
-    }
-
-    section.login div.login__user input.login__user__password{
-        width: 275px;
-        height: 41px;
-    }
-
-    section.login div.login__user #btnEnter{
-        width: 109px;
-    }
-
-    /*Page agregar-producto*/
-
-    section.menu button.boton__header__menu{
-        width: 150px;
-        margin: 0 2rem 0 0;
-    }
-
-    section.login__form{
-        width:390px;
-    }
-
-    section.login__form form.login__user__form p.login__user__title{
-        font-size: 22px;
-        line-height: 26px;
-        width: 330px;
-        text-align: center;
-    }
-
-    section.login__form form.login__user__form div.login__user__url{
-        width: 328px;
-        height: 56px;
-    }
-
-    section.login__form form.login__user__form input.login__user__url__input{
-        width: 324px;
-    }
-
-    section.login__form form.login__user__form div.login__user__categoria{
-        width: 328px;
-        height: 56px;
-    }
-
-    section.login__form form.login__user__form input.login__user__categoria__input{
-        width: 324px;
-    }
-
-    section.login__form form.login__user__form div.login__user__name{
-        width: 328px;
-        height: 56px;
-    }
-
-    section.login__form form.login__user__form input.login__user__name__input{
-        width: 324px;
-    }
-
-    section.login__form form.login__user__form div.login__user__price{
-        width: 328px;
-        height: 56px;
-    }
-
-    section.login__form form.login__user__form input.login__user__price__input{
-        width: 324px;
-    }
-
-    section.login__form form.login__user__form div.login__user__description{
-        width: 328px;
-        height: 56px;
-    }
-
-    section.login__form form.login__user__form input.login__user__description__input{
-        width: 324px;
-    }
-
-    section.login__form form.login__user__form button.login__user__boton{
-        font-size: 16px;
-        line-height: 19px;
-        width: 328px;
-        height: 51px;
-    }
-  
-    /*Page one-producto*/
-
-    section.product{
-        width: 384px;
-    }
-
-    section.product div{
-        flex-direction: column;
-        align-items:flex-start;
-    }
-
-    section.product div.product__store__data ul.product__store__list{
-        padding: 1rem;
-    }
-
-    section.product ul li.product__store__item__title{
-        font-weight: 500;
-        font-size: 22px;
-        line-height: 26px;
-    }
-    
-    section.product ul li.product__store__item__price{
-        font-size: 16px;
-        line-height: 19px;
-    }
-    
-    section.product ul li.product__store__item__descripcion{
-        font-size: 14px;
-        line-height: 16px;
-        text-align: justify;
-    }
-    
-    section.product div.products__same{
-        flex-wrap: wrap;
-        flex-direction: row;
-    }
-
-    section.product div.products__same div:nth-child(n+5){
-        display: none;
-    }
-
-    section.product h2.products__head__title{
-        margin: 1rem;
-    }
-
-    section.product ul.products__store__list{
-        margin: 0;
-        padding: 0;
-    }
-
-    section.product ul li.products__store__item__img img{
-        width: 150px;
-        height: 174px;
-    }
 }
