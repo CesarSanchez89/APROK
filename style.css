@@ -344,385 +344,104 @@ footer.data__company div.rodapie{
     padding-left: 0.1rem;
 }
 
+/*banner*/
 
-/*Page Home-login*/
-
-section.login div.login__user{
+section.bannerquienessomos{
+    background-image: url(/assets/banner2.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 1270px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
-    padding: 5rem 0;
-    gap: 8px;
-    background: #F5F5F5;
+    padding: 30px;
 }
 
-section.login div.login__user p.login__user__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    color: #464646;
-}
 
-section.login div.login__user input.login__user__email{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 50px;
-    border-style: solid;
-}
 
-section.login div.login__user input.login__user__password{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 50px;
-    border-style: solid;
-}
-
-.formcontacto__form--invalid .login__user__email{
-    border: 1px solid rgb(228, 53, 53);
-    border-radius: 7px; 
-}
-
-.formcontacto__form--invalid .login__user__password{
-    border: 1px solid rgb(228, 53, 53);
-    border-radius: 7px; 
-}
-
-.formcontacto__form--invalid .login__user__email::placeholder{
-    color: red;  
-}
-
-.formcontacto__form--invalid .login__user__password::placeholder{
-    color: red;  
-}
-
-section.login div.login__user button.login__user__boton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 16px;
-    gap: 10px;
-    background: #2A7AE4;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
-    margin: 1rem;
-    width: 423px;
-    height: 50px;
-    border: none;
-}
-
-/*Page agregar-producto*/
-
-section.menu button.boton__header__menu{
-    background: #FFFFFF;
-    width: 180px;
-    height: 60px;
-    padding: 16px;
-    border: 1px solid #2A7AE4;
-    box-sizing: border-box;
-    color: #2A7AE4;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
-section.login__form form.login__user__form{
+section.bannerquienessomos div.banner__about{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 5rem 0;
-    gap: 8px;
-    background: #F5F5F5;
-}
-
-section.login__form form.login__user__form p.login__user__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 38px;
-    color: #464646;
-    width: 425px;
-}
-
-section.login__form form.login__user__form div.login__user__url{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 55px;
-    border-style: none;
-}
-
-section.login__form form.login__user__form div.login__user__url label{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #A2A2A2;
-}
-
-section.login__form form.login__user__form input.login__user__url__input{
-    width: 423px;
-    height: 33px;
-    border: 0;
-    outline: none;
-}
-
-section.login__form form.login__user__form div.login__user__categoria{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 55px;
-    border-style: none;
-}
-
-section.login__form form.login__user__form div.login__user__categoria label{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #A2A2A2;
-}
-
-section.login__form form.login__user__form input.login__user__categoria__input{
-    width: 418px;
-    height: 30px;
-    border: 0;
-    outline: none;
-}
-
-section.login__form form.login__user__form div.login__user__name{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 55px;
-    border-style: none;
-}
-
-section.login__form form.login__user__form div.login__user__name label{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #A2A2A2;
-}
-
-section.login__form form.login__user__form input.login__user__name__input{
-    width: 418px;
-    height: 30px;
-    border: 0;
-    outline: none;  
-}
-
-section.login__form form.login__user__form div.login__user__price{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 55px;
-    border-style: none;
-}
-
-section.login__form form.login__user__form div.login__user__price label{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #A2A2A2;
-}
-
-section.login__form form.login__user__form input.login__user__price__input{
-    width: 418px;
-    height: 30px;
-    border: 0;
-    outline: none;  
-}
-
-section.login__form form.login__user__form div.login__user__description{
-    background: #FFFFFF;
-    border-radius: 4px;
-    width: 423px;
-    height: 55px;
-    border-style: none;
-}
-
-section.login__form form.login__user__form div.login__user__description label{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #A2A2A2;
-}
-
-section.login__form form.login__user__form input.login__user__description__input{
-    width: 418px;
-    height: 30px;
-    border: 0;
-    outline: none;  
-}
-
-section.login__form form.login__user__form button.login__user__boton{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 16px;
-    gap: 10px;
-    width: 423px;
-    height: 51px;
-    background: #2A7AE4;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-}
-
-/*page productos*/
-
-section.products div.products__head a{
-    text-decoration: none;
-}
-
-section.products div.products__store__showall{
-    display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-end;
     align-items: flex-start;
     padding: 0px;
+    width: 1136px;
+    height: 170px;
 }
 
-section.products div ul.products__store__list img.icono__delete__st{
-    position: relative;
-    left: 120px;
-    top:30px
+section.bannerquienessomos div.banner__about h2.banner__promocional{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 61px;
+    color: #021630;
 }
 
-section.products div ul.products__store__list img.icono__pencil__st{
-    position: relative;
-    left: 130px;
-    top:30px
+section.bannerquienessomos div.banner__about h3.banner__descuento{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    color: #111111;
 }
 
-.product--invalid{
-    display: none;
+section.bannerquienessomos div.banner__about a{
+    text-decoration: none;
 }
 
-/*one-product*/
-
-section.product{
-    background: #F5F5F5;
-}
-
-section.product div{
+section.bannerquienessomos div.banner__about span.banner__span{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 0px;
-    gap: 8px;
-    margin: 0;
-}
-
-section.product div div.product__store__img{
-    margin: 1rem 0.5rem 0 10rem;    
-}
-
-section.product div div.product__store__img img{
-    width: 270px;
-    height: 290px;
-}
-
-section.product div.products__same div:nth-child(n+6){
-    display: none;
-}
-
-section.product div ul.product__store__list{
-    list-style: none;
-}
-
-section.product ul li.product__store__item__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 61px;
-    color: #464646;
-}
-
-section.product ul li.product__store__item__price{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #464646;
-}
-
-section.product ul li.product__store__item__descripcion{
+    background: #2A7AE4;;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #464646;
-}
-
-section.product h2.products__head__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    color: #464646;
-    margin: 4rem 0 1rem 4.5rem;
-}
-
-section.product div.products__same ul.products__store__list{
-    list-style: none;
-    margin: 0 0 4rem 2rem;
-}
-
-section.product div.products__same ul li.products__store__item__title{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
-    color: #464646;
+    line-height: 22px;
+    width: 100px;
+    height: 80px;
+    color: #FFFFFF;
 }
 
-section.product div.products__same ul li.products__store__item__price{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #464646;
+/*products*/
+
+section.company{
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    background: #F5F5F5;
+    width: 1335px;
+    gap: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
 }
 
+section.company div.description{
+    width: 600px;
+    height: 400px;
+    margin: 0 3rem 0 2rem;
+}
 
-section.product div.products__same ul.products__store__list a{
-    text-decoration: none;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2A7AE4;
+section.company div.description h2.descripcion__titulo{
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.company div.description h4.descripcion__resena{
+    font-size: 20px;
+    font-family:monospace;
+    text-align: justify;
+}
+
+section.company div.fotografia img{
+    width: 600px;
+    height: 400px;
+    margin: 1rem 0 1rem 0;
 }
 
 
