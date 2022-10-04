@@ -57,12 +57,12 @@ section.menu button.boton__header{
 
 /*banner*/
 
-section.banner{
+section.bannerquienessomos{
     background-image: url(/assets/banner2.png);
     background-size:cover;
     background-repeat: no-repeat;
     width: 1270px;
-    height: 430px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -72,7 +72,7 @@ section.banner{
 
 
 
-section.banner div.banner__about{
+section.bannerquienessomos div.banner__about{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -82,7 +82,7 @@ section.banner div.banner__about{
     height: 170px;
 }
 
-section.banner div.banner__about h2.banner__promocional{
+section.bannerquienessomos div.banner__about h2.banner__promocional{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
@@ -91,7 +91,7 @@ section.banner div.banner__about h2.banner__promocional{
     color: #021630;
 }
 
-section.banner div.banner__about h3.banner__descuento{
+section.bannerquienessomos div.banner__about h3.banner__descuento{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 900;
@@ -100,11 +100,11 @@ section.banner div.banner__about h3.banner__descuento{
     color: #111111;
 }
 
-section.banner div.banner__about a{
+section.bannerquienessomos div.banner__about a{
     text-decoration: none;
 }
 
-section.banner div.banner__about span.banner__span{
+section.bannerquienessomos div.banner__about span.banner__span{
     display: flex;
     flex-direction: row;
     justify-content: center;
