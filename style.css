@@ -365,8 +365,6 @@ section.bannerquienessomos{
     padding: 30px;
 }
 
-
-
 section.bannerquienessomos div.banner__about{
     display: flex;
     flex-direction: column;
@@ -662,6 +660,10 @@ section.mision__vision div.vision__fotografia img{
         margin: 0.5rem 0.5rem;
         padding: 0.5rem 0.5rem;
     }
+
+    section.menu header.menu__header img.logo{
+        width: 190px;
+    }
     
     section.menu input.input__header{
         display: none;
@@ -676,7 +678,7 @@ section.mision__vision div.vision__fotografia img{
     }
 
     section.menu header.menu__header img.find{
-        left: 170px;
+        left: 150px;
     }
 
     /*banner*/
@@ -685,7 +687,7 @@ section.mision__vision div.vision__fotografia img{
 
         width: 360px;
         height: 90px;
-        padding: 20px;
+        padding: 10px;
         margin: 0.1rem;
         background-size: 380px;
     }
@@ -744,10 +746,6 @@ section.mision__vision div.vision__fotografia img{
         font-size: 14px;
         line-height: 16px;
     }
-
-    section.products div.products__store__all div:nth-child(n+5){
-        display:none;
-    }
     
     section.products div ul.products__store__list{
         padding: 0.2rem 0.5rem;
@@ -787,6 +785,17 @@ section.mision__vision div.vision__fotografia img{
     
     footer.data__company div.rodapie{
         width: 300px;
+    }
+
+    /*Page quienessomos*/
+
+    section.bannerquienessomos{
+        display: none;
+    }
+
+    section.company{
+        flex-direction: column;
+        width: 420px;
     }
 
 }
