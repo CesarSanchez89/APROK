@@ -347,7 +347,7 @@ footer.data__company div.rodapie{
 /*banner*/
 
 section.bannerquienessomos{
-    background-image: url(/assets/banner2.png);
+    background-image: url(./assets/banner2.png);
     background-size:cover;
     background-repeat: no-repeat;
     width: 1270px;
