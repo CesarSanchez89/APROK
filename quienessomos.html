@@ -53,34 +53,36 @@
             <div class="foot__box">
                 <ul class="foot__box__list">
                     <a href="quienessomos.html"><li class="foot__box__item">Quienes Somos</li></a>
-                    <li class="foot__box__item">Misión y Visión</li>
+                    <a href="misionvision.html"><li class="foot__box__item">Misión y Visión</li></a>
                     <!--<li class="foot__box__item">Programa de fidelidad</li>-->
-                    <li class="foot__box__item">Nuestra tienda</li>
                     <!--<li class="foot__box__item">Quiero ser franquiciado</li>-->
-                    <li class="foot__box__item">Anuncie aquí</li>
+                    <li class="foot__box__item">Escríbenos para anunciar aquí</li>
                 </ul>
             </div>
-            <form class="foot__form">
-                <p class="foot__form__title">Hable con nosotros</p>
+            <form class="foot__form" name="formulario-contacto">
+                <p class="foot__form__title">Contáctanos</p>
                 <div class="input-container">
-                    <input id="input" type="text" class="foot__form__name" placeholder="Nombre" required maxlength="40">
+                    <input id="input_name" type="text" class="foot__form__name" placeholder="Nombre" required maxlength="40">
                     <span class="input-message-error">Este campo no puede estar vacío</span>
                 </div>
                 <div class="input-container">
-                    <input id="input" type="text" class="foot__form__message" placeholder="Escribe tu mensaje" required maxlength="120">
+                    <input id="input_mail" type="text" class="foot__form__mail" placeholder="Correo Electrónico" required maxlength="40">
                     <span class="input-message-error">Este campo no puede estar vacío</span>
                 </div>
-                <button type="button" class="foot__form__boton" style="cursor:pointer">Enviar mensaje</button>
+                <div class="input-container">
+                    <input id="input_txt" type="text" class="foot__form__message" placeholder="Escribe tu mensaje" required maxlength="120">
+                    <span class="input-message-error">Este campo no puede estar vacío</span>
+                </div>
+                <input class="foot__form__boton" id ="enviarCorreo" type="submit" value="Enviar" style="cursor:pointer">
+                <!--<button type="button" class="foot__form__boton" style="cursor:pointer">Enviar mensaje</button>-->
                 <dialog id="modal">
                     <p>Mensaje Enviado</p>
                     <button type="submit" id="cerra--modal">OK!</button>
                 </dialog>
             </form>
         </div>
-        <div class="rodapie">
-            <p>Desarrolado por César Sánchez - 2022</p>
-        </div>
     </footer>
-    <script type="module" src="./js/principalpage.js"></script>
+    <script type="module" src="./js/mail.js"></script>
+    <script type="module" src="./js/validaciones.js"></script>
 </body>
 </html>
